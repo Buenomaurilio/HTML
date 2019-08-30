@@ -9,7 +9,7 @@ html,body {
 
 .container {
     display: grid;
-    grid-template-columns: 10fr 10fr;
+    grid-template-columns: 1fr 1fr;
     
     grid-template-rows: 20vh 70vh 10vh;
     
@@ -19,7 +19,7 @@ header {
     background: yellow;
     
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
 }
 
 main {
@@ -33,13 +33,13 @@ main {
 aside    {
     background: green;
    
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 div, footer {
     background: red;
    
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
 }
