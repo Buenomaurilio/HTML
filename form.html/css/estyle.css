@@ -1,0 +1,34 @@
+
+html,body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background: blue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 40vh 40vh 20vh;
+   
+}
+
+
+header {
+    display: flex;
+    background: green;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
+
+select {
+    background: royalblue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+nav{
+
+    background: red;
+    grid-column-start: 1;
+    grid-column-end:3; 
+}
